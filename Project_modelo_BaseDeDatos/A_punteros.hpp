@@ -8,6 +8,9 @@ class A_puntero
     int c_Longitud(const char* ptm);
     void copiarCadena(char*& destino, const char* origen);
     void imprimirCadena(const char* cadena);
+    bool compararCadenas(const char* cadena1, const char* cadena2) const;
+
+
     // Constructor
     A_puntero();
 };

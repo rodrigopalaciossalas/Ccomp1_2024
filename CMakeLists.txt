@@ -17,5 +17,6 @@
 #add_subdirectory(p_final_pi_documentos)
 #add_subdirectory(p_final_pi_abogado)
 #add_subdirectory(p_final_pi_cliente)
+add_subdirectory(p_final_pi_economia)
 
-add_subdirectory(Project_modelo_BaseDeDatos)
+#add_subdirectory(Project_modelo_BaseDeDatos)

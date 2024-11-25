@@ -1,28 +1,40 @@
 #include "AbogadoView.hpp"
 #include <iostream>
 
-void AbogadoView::mostrarDatos( Abogado& abogado) 
+void AbogadoView::mostrarDatos(Abogado& abogado) 
 {
-    std::cout << "ID: Abg." << abogado.obtenerID() << "\n";
-    std::cout << "Nombre: "; abogado.imprimirCadena(abogado.getNombre());
-    std::cout << "\nApellido: "; abogado.imprimirCadena(abogado.getApellido());
-    std::cout << "\nTelefono: "; abogado.imprimirCadena(abogado.getTelefono());
-    std::cout << "\nEspecialidad: "; abogado.imprimirCadena(abogado.getEspecialidad());
-    std::cout << "\nSalario: " << abogado.getSalario() << "\n";
-    std::cout << "Puesto: "; abogado.imprimirCadena(abogado.getPuesto());
-    std::cout << "\nGmail: "; abogado.imprimirCadena(abogado.getGmail());
-    std::cout << "\nFecha de Contratacion: "; 
-}
+    std::cout << "=== Datos del Abogado ===\n";
+    std::cout << "Nombre: " << abogado.getNombre() << "\n";
+    std::cout << "Apellido: " << abogado.getApellido() << "\n";
+    std::cout << "Telefono: " << abogado.getTelefono() << "\n";
+    std::cout << "Especialidad: " << abogado.getEspecialidad() << "\n";
+    std::cout << "Salario: " << abogado.getSalario() << "\n";
+    std::cout << "Puesto: " << abogado.getPuesto() << "\n";
+    std::cout << "Gmail: " << abogado.getGmail() << "\n";
 
-void AbogadoView::solicitarEntrada(const char* mensaje, char* entrada, int longitud) {
+    Fecha fecha = abogado.getFechaContratacion();
+    std::cout << "Fecha de contratacion: " << fecha.dia << "/" << fecha.mes << "/" << fecha.anio << "\n";
+    std::cout << "=========================\n";
+}
+void AbogadoView::solicitarEntrada(const char* mensaje, char* entrada, int longitud) 
+{
     std::cout << mensaje;
-    std::cin.ignore();
     std::cin.getline(entrada, longitud);
+
+    entrada[longitud - 1] = '\0';
+
 }
 
-int AbogadoView::solicitarFecha(const char* mensaje) {
+
+int AbogadoView::solicitarInt(const char* mensaje)
+ {
+    int valor;
     std::cout << mensaje;
-    int fecha;
-    std::cin >> fecha;
-    return fecha;
+    std::cin >> valor;
+    return valor;
+}
+
+int AbogadoView::solicitarFecha(const char* mensaje) 
+{
+    return solicitarInt(mensaje); 
 }

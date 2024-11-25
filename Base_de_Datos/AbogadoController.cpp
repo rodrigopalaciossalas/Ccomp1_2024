@@ -4,12 +4,15 @@
 AbogadoController::AbogadoController(Abogado* _abogado, AbogadoView* _vista)
     : abogado(_abogado), vista(_vista) {}
 
-void AbogadoController::mostrarDatos() {
+void AbogadoController::mostrarDatos() 
+{
     vista->mostrarDatos(*abogado);
 }
 
-void AbogadoController::ingresarDatosObligatorios() {
+void AbogadoController::ingresarDatosObligatorios() 
+{
     char entrada[100];
+   
     vista->solicitarEntrada("Ingrese el nombre del abogado: ", entrada, 100);
     abogado->setNombre(entrada);
 
@@ -47,4 +50,31 @@ void AbogadoController::ingresarDatosOpcionales() {
         vista->solicitarEntrada("Ingrese la especialidad del abogado: ", entrada, 100);
         abogado->setEspecialidad(entrada);
     }
+
+    
+}
+
+void AbogadoController::eliminarAbogado()
+{
+    int id = vista->solicitarInt("Ingrese el ID del abogado a eliminar: ");
+    modelo->eliminarAbogadoPorID(id);
+}
+
+void AbogadoController::buscarAbogado()
+{
+    int id = vista->solicitarInt("Ingrese el ID del abogado a buscar: ");
+    Abogado* abogado = modelo->buscarAbogadoPorID(id);
+    if (abogado)
+    {
+        vista->mostrarDatos(*abogado);
+    }
+    else
+    {
+        std::cout << "No se encontró un abogado con el ID " << id << ".\n";
+    }
+}
+
+void AbogadoController::listarAbogados()
+{
+    modelo->listarAbogados();
 }

@@ -1,33 +1,42 @@
-#include "DocumentosModel.hpp"
-#include "DocumentosView.hpp"
-#include "DocumentosController.hpp"
-#include "Fecha.hpp"
+#include <iostream>
+#include "AbogadoController.hpp"
+#include "AbogadoView.hpp"
+#include "AbogadoModel.hpp"
 
 int main() {
-    Fecha fecha1(10, 5, 2021);
-    Fecha fecha2(15, 6, 2022);
-    Fecha fecha3(20, 7, 2023);
+    Abogado abogado("", "", "", "", 0.0, "", "", 0, 0, 0);  // Inicializar con datos vacíos
+    AbogadoView vista;
+    AbogadoController controller(&abogado, &vista);
 
-    Documentos doc1("Contrato", 1, fecha1, "Contrato de alquiler");
-    Documentos doc2("Reporte", 2, fecha2, "Reporte financiero");
-    Documentos doc3("Testamento", 3, fecha3, "Testamento de defuncion");
+    int opcion = 0;
 
-    Documentos documentos[] = { doc1, doc2, doc3 };
-    int docCount = 3;
+    do {
+        std::cout << "\n=== Menu ===\n";
+        std::cout << "1. Ingresar datos obligatorios\n";
+        std::cout << "2. Ingresar datos opcionales\n";
+        std::cout << "3. Mostrar datos del abogado\n";
+        std::cout << "4. Salir\n";
+        std::cout << "Seleccione una opcion: ";
+        std::cin >> opcion;
 
-    DocumentosController controller(documentos, docCount);
-
-    std::cout << "Busqueda por titulo 'Contrato de alquiler':" << std::endl;
-    controller.searchByName("Contrato de alquiler");
-
-    std::cout << "\nBusqueda por ID 2:" << std::endl;
-    controller.searchByID(2);
-
-    std::cout << "\nBusqueda por fecha 20-7-2023:" << std::endl;
-    controller.searchByDate(Fecha(20, 7, 2023));
-
-    std::cout << "\nBusqueda por tipo 'Contrato':" << std::endl;
-    controller.searchByType("Contrato");
+        switch (opcion) {
+            case 1:
+                controller.ingresarDatosObligatorios();
+                break;
+            case 2:
+                controller.ingresarDatosOpcionales();
+                break;
+            case 3:
+                controller.mostrarDatos();
+                std::cout << "ID del Abogado: " << abogado.obtenerID() << std::endl; // Mostrar ID
+                break;
+            case 4:
+                std::cout << "Saliendo..." << std::endl;
+                break;
+            default:
+                std::cout << "Opcion no valida!" << std::endl;
+        }
+    } while (opcion != 4);
 
     return 0;
 }

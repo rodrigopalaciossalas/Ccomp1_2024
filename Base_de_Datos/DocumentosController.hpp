@@ -3,24 +3,28 @@
 
 #include "DocumentosModel.hpp"
 #include "DocumentosView.hpp"
+#include <fstream>
 
 class DocumentosController {
 private:
     Documentos* documentos;
     int docCount;
-    DocumentosView view;
+    DocumentosView vista;
 
-    bool compareStrings(const char* str1, const char* str2) const;
+    bool compararCadenas(const char* str1, const char* str2) const;
 
 public:
     DocumentosController(Documentos* docs, int count);
 
-    void searchByName(const char* name) const;
-    void searchByID(int id) const;
-    void searchByDate(Fecha date) const;
-    void searchByType(const char* type) const;
+    void buscarPorNombre(const char* name) const;
+    void buscarPorID(int id) const;
+    void buscarPorFecha(Fecha fecha) const;
+    void buscarPorTipo(const char* tipo) const;
 
-    void displayDocumentos(const Documentos& doc) const;
+    void guardarDocumentosEnArchivo(const char* nombreArchivo) const;
+    void mostrarDocumentosDesdeArchivo(const char* nombreArchivo) const;
+
+    void mostrarDocumentos(const Documentos& doc) const;
 };
 
 #endif

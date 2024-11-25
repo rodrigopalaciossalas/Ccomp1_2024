@@ -4,10 +4,12 @@
 #include "AbogadoModel.hpp"
 #include "AbogadoView.hpp"
 
-class AbogadoController {
+class AbogadoController 
+{
 private:
     Abogado* abogado;
     AbogadoView* vista;
+    AbogadoModel* modelo;
 
 public:
     AbogadoController(Abogado* _abogado, AbogadoView* _vista);
@@ -17,6 +19,10 @@ public:
     void actualizarPuesto(const char* puesto);
     void ingresarDatosObligatorios();
     void ingresarDatosOpcionales();
+    void agregarAbogado();
+    void eliminarAbogado();
+    void buscarAbogado();
+    void listarAbogados();
 };
 
 #endif // ABOGADO_CONTROLLER_HPP

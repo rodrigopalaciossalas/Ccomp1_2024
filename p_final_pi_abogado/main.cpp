@@ -1,34 +1,42 @@
-#include "AbogadoModel.hpp"
-#include "AbogadoView.hpp"
-#include "AbogadoController.hpp"
-#include "A_punteros.hpp"
 #include <iostream>
+#include "AbogadoController.hpp"
+#include "AbogadoView.hpp"
+#include "AbogadoModel.hpp"
 
-int main()
-{
-    // Crear un objeto A_puntero para gestión de cadenas de caracteres
-    A_puntero puntero;
+int main() {
+    Abogado abogado("", "", "", "", 0.0, "", "", 0, 0, 0);  // Inicializar con datos vacíos
+    AbogadoView vista;
+    AbogadoController controller(&abogado, &vista);
 
-    // Crear un objeto Abogado con algunos datos iniciales
-    Abogado abogado("Juan", "Perez", "123456789", "Civil", 3000.0, "Abogado", "juan.perez@gmail.com", 10, 12, 2010);
+    int opcion = 0;
 
-    // Crear un objeto AbogadoView
-    AbogadoView view;
+    do {
+        std::cout << "\n=== Menu ===\n";
+        std::cout << "1. Ingresar datos obligatorios\n";
+        std::cout << "2. Ingresar datos opcionales\n";
+        std::cout << "3. Mostrar datos del abogado\n";
+        std::cout << "4. Salir\n";
+        std::cout << "Seleccione una opcion: ";
+        std::cin >> opcion;
 
-    // Crear un objeto AbogadoController que manejará la lógica entre la vista y el modelo
-    AbogadoController controller(&abogado, &view);
-
-    // Mostrar los datos iniciales
-    std::cout << "Datos del abogado:\n";
-    controller.mostrarDatos();
-
-    // Modificar algunos datos del abogado
-    std::cout << "\nModificando algunos datos del abogado...\n";
-    controller.ingresarDatosOpcionales();
-
-    // Mostrar los datos actualizados
-    std::cout << "\nDatos actualizados del abogado:\n";
-    controller.mostrarDatos();
+        switch (opcion) {
+            case 1:
+                controller.ingresarDatosObligatorios();
+                break;
+            case 2:
+                controller.ingresarDatosOpcionales();
+                break;
+            case 3:
+                controller.mostrarDatos();
+                std::cout << "ID del Abogado: " << abogado.obtenerID() << std::endl; // Mostrar ID
+                break;
+            case 4:
+                std::cout << "Saliendo..." << std::endl;
+                break;
+            default:
+                std::cout << "Opcion no valida!" << std::endl;
+        }
+    } while (opcion != 4);
 
     return 0;
 }

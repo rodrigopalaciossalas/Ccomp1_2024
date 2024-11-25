@@ -2,7 +2,7 @@
 # Initialization
 #############################################################
 
-project( C++_intentos)
+project( C++_Proj_p_individuales_abogado )
 
 message( "Source of application:  ${CMAKE_SOURCE_DIR} " )
 message( "Subproject name:  ${PROJECT_NAME} " )

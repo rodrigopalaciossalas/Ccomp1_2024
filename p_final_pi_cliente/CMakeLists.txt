@@ -2,7 +2,7 @@
 # Initialization
 #############################################################
 
-project( C++_Proj_p_individuales_cliente )
+project( base4 )
 
 message( "Source of application:  ${CMAKE_SOURCE_DIR} " )
 message( "Subproject name:  ${PROJECT_NAME} " )

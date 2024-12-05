@@ -24,7 +24,7 @@ events:
       The output was:
       0
       Versi├│n de MSBuild 17.10.4+10fbfbf2e para .NET Framework
-      Compilaci├│n iniciada a las 23/11/2024 21:49:25.
+      Compilaci├│n iniciada a las 1/12/2024 13:23:49.
       
       Proyecto "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdC\\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:02.34
+      Tiempo transcurrido 00:00:03.32
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       Versi├│n de MSBuild 17.10.4+10fbfbf2e para .NET Framework
-      Compilaci├│n iniciada a las 23/11/2024 21:49:28.
+      Compilaci├│n iniciada a las 1/12/2024 13:23:53.
       
       Proyecto "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\3.28.3-msvc11\\CompilerIdCXX\\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Advertencia(s)
           0 Errores
       
-      Tiempo transcurrido 00:00:01.90
+      Tiempo transcurrido 00:00:04.58
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,48 +127,48 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-nzprjv"
-      binary: "E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-nzprjv"
+      source: "E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-up07y2"
+      binary: "E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-up07y2"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-nzprjv'
+        Change Dir: 'E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-up07y2'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b2f5c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_093cf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versi├│n de MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compilaci├│n iniciada a las 23/11/2024 21:49:31.
+        Compilaci├│n iniciada a las 1/12/2024 13:23:59.
         
-        Proyecto "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzprjv\\cmTC_b2f5c.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up07y2\\cmTC_093cf.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_b2f5c.dir\\Debug\\".
+          Creando directorio "cmTC_093cf.dir\\Debug\\".
           La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
-          Creando directorio "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzprjv\\Debug\\".
-          Creando directorio "cmTC_b2f5c.dir\\Debug\\cmTC_b2f5c.tlog\\".
+          Creando directorio "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up07y2\\Debug\\".
+          Creando directorio "cmTC_093cf.dir\\Debug\\cmTC_093cf.tlog\\".
         InitializeBuildStatus:
-          Se crear├í "cmTC_b2f5c.dir\\Debug\\cmTC_b2f5c.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_b2f5c.dir\\Debug\\cmTC_b2f5c.tlog\\unsuccessfulbuild".
+          Se crear├í "cmTC_093cf.dir\\Debug\\cmTC_093cf.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_093cf.dir\\Debug\\cmTC_093cf.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2f5c.dir\\Debug\\\\" /Fd"cmTC_b2f5c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_093cf.dir\\Debug\\\\" /Fd"cmTC_093cf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.40.33812 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b2f5c.dir\\Debug\\\\" /Fd"cmTC_b2f5c.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_093cf.dir\\Debug\\\\" /Fd"cmTC_093cf.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzprjv\\Debug\\cmTC_b2f5c.exe" /INCREMENTAL /ILK:"cmTC_b2f5c.dir\\Debug\\cmTC_b2f5c.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-nzprjv/Debug/cmTC_b2f5c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-nzprjv/Debug/cmTC_b2f5c.lib" /MACHINE:X64  /machine:x64 cmTC_b2f5c.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_b2f5c.vcxproj -> E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzprjv\\Debug\\cmTC_b2f5c.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up07y2\\Debug\\cmTC_093cf.exe" /INCREMENTAL /ILK:"cmTC_093cf.dir\\Debug\\cmTC_093cf.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-up07y2/Debug/cmTC_093cf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-up07y2/Debug/cmTC_093cf.lib" /MACHINE:X64  /machine:x64 cmTC_093cf.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_093cf.vcxproj -> E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up07y2\\Debug\\cmTC_093cf.exe
         FinalizeBuildStatus:
-          Se eliminar├í el archivo "cmTC_b2f5c.dir\\Debug\\cmTC_b2f5c.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_b2f5c.dir\\Debug\\cmTC_b2f5c.tlog\\cmTC_b2f5c.lastbuildstate".
-        Compilaci├│n del proyecto terminada "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-nzprjv\\cmTC_b2f5c.vcxproj" (destinos predeterminados).
+          Se eliminar├í el archivo "cmTC_093cf.dir\\Debug\\cmTC_093cf.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_093cf.dir\\Debug\\cmTC_093cf.tlog\\cmTC_093cf.lastbuildstate".
+        Compilaci├│n del proyecto terminada "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-up07y2\\cmTC_093cf.vcxproj" (destinos predeterminados).
         
         Compilaci├│n correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:02.62
+        Tiempo transcurrido 00:00:02.77
         
       exitCode: 0
   -
@@ -180,48 +180,48 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-yg4rb2"
-      binary: "E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-yg4rb2"
+      source: "E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-4aiijm"
+      binary: "E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-4aiijm"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-yg4rb2'
+        Change Dir: 'E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-4aiijm'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_5d822.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_97e55.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         Versi├│n de MSBuild 17.10.4+10fbfbf2e para .NET Framework
-        Compilaci├│n iniciada a las 23/11/2024 21:49:36.
+        Compilaci├│n iniciada a las 1/12/2024 13:24:04.
         
-        Proyecto "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yg4rb2\\cmTC_5d822.vcxproj" en nodo 1 (destinos predeterminados).
+        Proyecto "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4aiijm\\cmTC_97e55.vcxproj" en nodo 1 (destinos predeterminados).
         PrepareForBuild:
-          Creando directorio "cmTC_5d822.dir\\Debug\\".
+          Creando directorio "cmTC_97e55.dir\\Debug\\".
           La salida estructurada est├í habilitada. El formato del diagn├│stico del compilador reflejar├í la jerarqu├¡a de errores. Consulte https://aka.ms/cpp/structured-output para obtener m├ís detalles.
-          Creando directorio "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yg4rb2\\Debug\\".
-          Creando directorio "cmTC_5d822.dir\\Debug\\cmTC_5d822.tlog\\".
+          Creando directorio "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4aiijm\\Debug\\".
+          Creando directorio "cmTC_97e55.dir\\Debug\\cmTC_97e55.tlog\\".
         InitializeBuildStatus:
-          Se crear├í "cmTC_5d822.dir\\Debug\\cmTC_5d822.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
-          Aplicando tarea Touch a "cmTC_5d822.dir\\Debug\\cmTC_5d822.tlog\\unsuccessfulbuild".
+          Se crear├í "cmTC_97e55.dir\\Debug\\cmTC_97e55.tlog\\unsuccessfulbuild" porque se especific├│ "AlwaysCreate".
+          Aplicando tarea Touch a "cmTC_97e55.dir\\Debug\\cmTC_97e55.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5d822.dir\\Debug\\\\" /Fd"cmTC_5d822.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_97e55.dir\\Debug\\\\" /Fd"cmTC_97e55.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           Compilador de optimizaci├│n de C/C++ de Microsoft (R) versi├│n 19.40.33812 para x64
           (C) Microsoft Corporation. Todos los derechos reservados.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_5d822.dir\\Debug\\\\" /Fd"cmTC_5d822.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_97e55.dir\\Debug\\\\" /Fd"cmTC_97e55.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\share\\cmake-3.28\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yg4rb2\\Debug\\cmTC_5d822.exe" /INCREMENTAL /ILK:"cmTC_5d822.dir\\Debug\\cmTC_5d822.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-yg4rb2/Debug/cmTC_5d822.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-yg4rb2/Debug/cmTC_5d822.lib" /MACHINE:X64  /machine:x64 cmTC_5d822.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_5d822.vcxproj -> E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yg4rb2\\Debug\\cmTC_5d822.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.40.33807\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4aiijm\\Debug\\cmTC_97e55.exe" /INCREMENTAL /ILK:"cmTC_97e55.dir\\Debug\\cmTC_97e55.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-4aiijm/Debug/cmTC_97e55.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/CMakeScratch/TryCompile-4aiijm/Debug/cmTC_97e55.lib" /MACHINE:X64  /machine:x64 cmTC_97e55.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_97e55.vcxproj -> E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4aiijm\\Debug\\cmTC_97e55.exe
         FinalizeBuildStatus:
-          Se eliminar├í el archivo "cmTC_5d822.dir\\Debug\\cmTC_5d822.tlog\\unsuccessfulbuild".
-          Aplicando tarea Touch a "cmTC_5d822.dir\\Debug\\cmTC_5d822.tlog\\cmTC_5d822.lastbuildstate".
-        Compilaci├│n del proyecto terminada "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yg4rb2\\cmTC_5d822.vcxproj" (destinos predeterminados).
+          Se eliminar├í el archivo "cmTC_97e55.dir\\Debug\\cmTC_97e55.tlog\\unsuccessfulbuild".
+          Aplicando tarea Touch a "cmTC_97e55.dir\\Debug\\cmTC_97e55.tlog\\cmTC_97e55.lastbuildstate".
+        Compilaci├│n del proyecto terminada "E:\\LabCompiler2024_II\\ProjectTest_PathCompiler\\src\\p_final_pi_abogado\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4aiijm\\cmTC_97e55.vcxproj" (destinos predeterminados).
         
         Compilaci├│n correcta.
             0 Advertencia(s)
             0 Errores
         
-        Tiempo transcurrido 00:00:02.42
+        Tiempo transcurrido 00:00:02.75
         
       exitCode: 0
 ...

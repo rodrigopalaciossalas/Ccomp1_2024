@@ -1,0 +1,3 @@
+E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/Base_de_Datos/build/CMakeFiles/C++_Proj_Base_completa.dir
+E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/Base_de_Datos/build/CMakeFiles/ALL_BUILD.dir
+E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/Base_de_Datos/build/CMakeFiles/ZERO_CHECK.dir

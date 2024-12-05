@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\A_punteros.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\AbogadoController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\AbogadoModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\AbogadoView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\ColorManipulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\DocumentosController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\DocumentosManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\DocumentosModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\DocumentosView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\Fecha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\ID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\MainGestion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\abogado.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\boletas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\clientes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\economia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\facturas.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\mainEconomia.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\persona.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\A_punteros.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\AbogadoController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\AbogadoModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\AbogadoView.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\ColorManipulation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\DocumentosController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\DocumentosManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\DocumentosModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\DocumentosView.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\Fecha.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\MainGestion.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\abogado.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\boletas.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\clientes.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\economia.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\facturas.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\listaGenerica.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\mainEconomia.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\persona.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\Base_de_Datos\ID.HPP" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{C878AAE7-19BC-3B62-99C6-AA0DD57A847E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{03C413FA-D9C5-3429-973F-6F477142966E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

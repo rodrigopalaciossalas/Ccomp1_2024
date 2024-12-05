@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\A_punteros.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\AbogadoController.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\AbogadoModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\AbogadoView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\ColorManipulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\Fecha.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\ID.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\abogado.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\persona.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\A_punteros.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\AbogadoController.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\AbogadoModel.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\AbogadoView.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\ColorManipulation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\Fecha.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\abogado.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\listaGenerica.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\persona.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\LabCompiler2024_II\ProjectTest_PathCompiler\src\p_final_pi_abogado\ID.HPP" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{B8C05F4F-CDDA-3B42-8B16-EACAB30C8398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{E1D38F92-8A15-3587-BE4C-5F2915F0679A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

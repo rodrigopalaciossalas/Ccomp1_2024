@@ -11,12 +11,17 @@
 #add_subdirectory (project_oso)
 #add_subdirectory (Project_oso_pruebas)
 #add_subdirectory (project_punteros)
-
+	
 #pruebas base de datos
+add_subdirectory(Base_de_Datos)
 
+#add_subdirectory(Base_de_datos_cliente)
 #add_subdirectory(p_final_pi_documentos)
 #add_subdirectory(p_final_pi_abogado)
+#add_subdirectory(documentos_joaquin)
 #add_subdirectory(p_final_pi_cliente)
-add_subdirectory(p_final_pi_economia)
+#add_subdirectory(p_final_pi_economia)
 
 #add_subdirectory(Project_modelo_BaseDeDatos)
+#add_subdirectory(Manipulacion_colores)
+

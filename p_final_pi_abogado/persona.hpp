@@ -1,40 +1,33 @@
+// Persona.hpp
 #ifndef PERSONA_HPP
 #define PERSONA_HPP
-#include <iostream>
+
 #include "A_punteros.hpp"
 
 class Persona {
-	
-	private:
-		char* nombres;
-		char* apellidos;
-		char* telefono;
-		char* correo;
-		int edad;
-		A_puntero puntero;
-		
-	protected:
-	
-		const char* getNombres() const;
-		const char* getApellidos() const;
-		const char* getTelefono() const;
-		const char* getCorreo() const;
-		
-		void setNombres(const char* _nombres);
-		void setApellidos (const char* _apellidos);
-		void setTelefono(const char* _telefono);
-		void setCorreo(const char* _correo);
-		
-		void ingresarEdad( );
-	
-	public:
-		Persona( const char* _nombres, const char* _apellidos, const char* _telefono, const char* _correo, const int edad);
-		~Persona();
-		
-		void registrarPersona();
-		void mostrarDatosPersona() const;
-		
-		
+private:
+    char* nombres;
+    char* apellidos;
+    char* telefono;
+    char* correo;
+    int edad;
+
+public:
+    void setNombres(const char* nombres);
+    void setApellidos(const char* apellidos);
+    void setTelefono(const char* telefono);
+    void setCorreo(const char* correo);
+
+    Persona(const char* nombres, const char* apellidos, const char* telefono,
+            const char* correo, int edad);
+    ~Persona();
+
+    // Métodos get públicos para acceder a los atributos heredados
+    const char* getNombres() const;
+    const char* getApellidos() const;
+    const char* getTelefono() const;
+    const char* getCorreo() const;
 };
 
-#endif 
+#endif
+

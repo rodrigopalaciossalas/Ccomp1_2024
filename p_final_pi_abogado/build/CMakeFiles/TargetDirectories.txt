@@ -1,3 +1,3 @@
-E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/C++_Proj_p_individuales_abogado.dir
+E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/C++_Proj_abogado.dir
 E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/ALL_BUILD.dir
 E:/LabCompiler2024_II/ProjectTest_PathCompiler/src/p_final_pi_abogado/build/CMakeFiles/ZERO_CHECK.dir

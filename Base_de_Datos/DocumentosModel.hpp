@@ -12,8 +12,10 @@ private:
     char* titulo;
 
 public:
+    Documentos();
     Documentos(const char* t, int id, Fecha fecha, const char* tit);
-    ~Documentos();
+
+    virtual ~Documentos();
 
     const char* getTipo() const;
     int getID() const;

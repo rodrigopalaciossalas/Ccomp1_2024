@@ -86,23 +86,23 @@ private:
         archivo.close();
     }
 
-    void guardarEnArchivo(const char* nombreArchivo) 
+void guardarEnArchivo(const char* nombreArchivo) 
+{
+    std::ofstream archivo(nombreArchivo, std::ios::trunc); // Crea o sobrescribe el archivo
+    if (!archivo.is_open()) 
     {
-        std::ofstream archivo(nombreArchivo, std::ios::trunc);
-        if (!archivo.is_open()) 
-        {
-            std::cerr << "Error al abrir el archivo para guardar: " << nombreArchivo << "\n";
-            return;
-        }
-        for (int i = 0; i < cantidad; ++i) 
-        {
-            if (datos[i] != nullptr) 
-            {
-                archivo << datos[i] << "\n";
-            }
-        }
-        archivo.close();
+        std::cerr << "Error al abrir el archivo para guardar: " << nombreArchivo << "\n";
+        return;
     }
+    for (int i = 0; i < cantidad; ++i) 
+    {
+        if (datos[i] != nullptr) {
+            archivo << datos[i] << "\n"; // Escribe cada línea en el archivo
+        }
+    }
+    archivo.close();
+}
+
 
 public:
     ListaGenerica(int capacidadInicial = 10) 

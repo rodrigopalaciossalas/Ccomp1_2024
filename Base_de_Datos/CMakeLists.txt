@@ -2,7 +2,7 @@
 # Initialization
 #############################################################
 
-project( C++_Proj_p_individuales_abogado )
+project(C++_Proj_Base_Abogados)
 
 message( "Source of application:  ${CMAKE_SOURCE_DIR} " )
 message( "Subproject name:  ${PROJECT_NAME} " )
@@ -13,7 +13,7 @@ set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR} )
 message( "Source of application:  ${CMAKE_BINARY_DIR} " )
 
 file(GLOB SOURCES "*.cpp" )
-file(GLOB HEADERS "*.h" )
+file(GLOB HEADERS "*.hpp" )
 
 # include_directories( ${OpenCV_INCLUDE_DIRS} )
  

@@ -9,7 +9,9 @@ public:
     int mes;
     int anio;
 
+    Fecha() : dia(1), mes(1), anio(2000) {}
     Fecha(int d, int m, int a);
+
     void imprimirFecha() const;
 };
 
